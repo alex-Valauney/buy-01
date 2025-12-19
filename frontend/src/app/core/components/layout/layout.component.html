@@ -1,0 +1,38 @@
+<header>
+  <nav class="container navbar">
+    <!-- Logo -->
+    <a routerLink="/" class="logo">
+      buy<span class="highlight">01</span>
+    </a>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a routerLink="/products" routerLinkActive="active">Produits</a></li>
+
+      <!-- Logged In -->
+      <ng-container *ngIf="currentUser$ | async as user; else guest">
+        <li *ngIf="user.role === 'SELLER'"><a routerLink="/seller/dashboard" class="btn btn-sm">Dashboard</a></li>
+        <li class="user-menu">
+          <span>Hello, {{ user.email }}</span>
+          <button (click)="logout()" class="btn-link">Déconnexion</button>
+        </li>
+      </ng-container>
+
+      <!-- Guest -->
+      <ng-template #guest>
+        <li><a routerLink="/login" routerLinkActive="active">Connexion</a></li>
+        <li><a routerLink="/register" class="btn btn-primary">Inscription</a></li>
+      </ng-template>
+    </ul>
+  </nav>
+</header>
+
+<main class="container content">
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; 2025 Buy01. Premium E-Commerce.</p>
+  </div>
+</footer>

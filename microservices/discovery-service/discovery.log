@@ -1,0 +1,864 @@
+nohup: les entrées sont ignorées
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.buy01:discovery-service >---------------------
+[INFO] Building discovery-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.0:run (default-cli) > test-compile @ discovery-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ discovery-service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ discovery-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ discovery-service ---
+[INFO] skip non existing resourceDirectory /home/student/Bureau/Cursus/java/Buy-01/buy-01/microservices/discovery-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ discovery-service ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.4.0:run (default-cli) < test-compile @ discovery-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.0:run (default-cli) @ discovery-service ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.pom
+Progress (1): 1.0 kBProgress (1): 2.7 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.pom (3.2 kB at 4.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.pom (2.2 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.pom
+Progress (1): 1.1 kBProgress (1): 3.0 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.pom (3.8 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.pom
+Progress (1): 1.1 kBProgress (1): 2.6 kBProgress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.pom (3.4 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.jar
+Progress (1): 0.9/297 kBProgress (1): 2.3/297 kBProgress (1): 3.6/297 kBProgress (1): 5.0/297 kBProgress (1): 6.4/297 kBProgress (1): 7.7/297 kBProgress (1): 9.1/297 kBProgress (1): 10/297 kB Progress (1): 11/297 kBProgress (1): 13/297 kBProgress (1): 14/297 kBProgress (1): 16/297 kBProgress (1): 17/297 kBProgress (1): 18/297 kBProgress (1): 20/297 kBProgress (1): 21/297 kBProgress (1): 22/297 kBProgress (1): 24/297 kBProgress (1): 25/297 kBProgress (1): 26/297 kBProgress (1): 28/297 kBProgress (1): 29/297 kBProgress (1): 31/297 kBProgress (1): 32/297 kBProgress (1): 33/297 kBProgress (1): 35/297 kBProgress (1): 36/297 kBProgress (1): 37/297 kBProgress (1): 39/297 kBProgress (1): 40/297 kBProgress (1): 44/297 kBProgress (1): 49/297 kBProgress (1): 53/297 kBProgress (1): 57/297 kBProgress (1): 61/297 kBProgress (1): 66/297 kBProgress (1): 70/297 kBProgress (1): 74/297 kBProgress (1): 78/297 kBProgress (1): 82/297 kBProgress (1): 87/297 kBProgress (1): 91/297 kBProgress (1): 95/297 kBProgress (1): 99/297 kBProgress (1): 104/297 kBProgress (1): 108/297 kBProgress (1): 112/297 kBProgress (1): 116/297 kBProgress (1): 121/297 kBProgress (1): 125/297 kBProgress (1): 126/297 kBProgress (1): 130/297 kBProgress (1): 135/297 kBProgress (1): 139/297 kBProgress (1): 143/297 kBProgress (1): 147/297 kBProgress (1): 151/297 kBProgress (1): 156/297 kBProgress (1): 160/297 kBProgress (1): 164/297 kBProgress (1): 168/297 kBProgress (1): 173/297 kBProgress (1): 177/297 kBProgress (1): 181/297 kBProgress (1): 185/297 kBProgress (1): 190/297 kBProgress (1): 194/297 kBProgress (1): 198/297 kBProgress (1): 202/297 kBProgress (1): 206/297 kBProgress (1): 223/297 kBProgress (1): 239/297 kBProgress (1): 256/297 kBProgress (1): 257/297 kBProgress (1): 274/297 kBProgress (1): 290/297 kBProgress (1): 297 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.jar (297 kB at 475 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar
+Progress (1): 0/1.9 MBProgress (1): 0/1.9 MBProgress (1): 0/1.9 MBProgress (1): 0/1.9 MBProgress (1): 0.1/1.9 MBProgress (1): 0.1/1.9 MBProgress (1): 0.1/1.9 MBProgress (1): 0.1/1.9 MBProgress (1): 0.1/1.9 MBProgress (1): 0.1/1.9 MBProgress (1): 0.2/1.9 MBProgress (1): 0.2/1.9 MBProgress (2): 0.2/1.9 MB | 0.9/464 kBProgress (2): 0.2/1.9 MB | 2.3/464 kBProgress (2): 0.2/1.9 MB | 3.6/464 kBProgress (2): 0.2/1.9 MB | 5.0/464 kBProgress (2): 0.2/1.9 MB | 6.4/464 kBProgress (2): 0.2/1.9 MB | 7.7/464 kBProgress (2): 0.2/1.9 MB | 9.1/464 kBProgress (2): 0.2/1.9 MB | 10/464 kB Progress (2): 0.2/1.9 MB | 12/464 kBProgress (2): 0.2/1.9 MB | 13/464 kBProgress (2): 0.2/1.9 MB | 15/464 kBProgress (2): 0.2/1.9 MB | 16/464 kBProgress (2): 0.2/1.9 MB | 17/464 kBProgress (2): 0.2/1.9 MB | 19/464 kBProgress (2): 0.2/1.9 MB | 19/464 kBProgress (2): 0.2/1.9 MB | 20/464 kBProgress (2): 0.2/1.9 MB | 20/464 kBProgress (2): 0.2/1.9 MB | 22/464 kBProgress (2): 0.2/1.9 MB | 23/464 kBProgress (2): 0.2/1.9 MB | 24/464 kBProgress (2): 0.2/1.9 MB | 26/464 kBProgress (2): 0.2/1.9 MB | 27/464 kBProgress (2): 0.2/1.9 MB | 29/464 kBProgress (2): 0.2/1.9 MB | 30/464 kBProgress (2): 0.2/1.9 MB | 31/464 kBProgress (2): 0.2/1.9 MB | 33/464 kBProgress (2): 0.2/1.9 MB | 34/464 kBProgress (2): 0.2/1.9 MB | 35/464 kBProgress (2): 0.2/1.9 MB | 37/464 kBProgress (2): 0.2/1.9 MB | 38/464 kBProgress (2): 0.2/1.9 MB | 40/464 kBProgress (2): 0.2/1.9 MB | 41/464 kBProgress (2): 0.2/1.9 MB | 42/464 kBProgress (2): 0.2/1.9 MB | 44/464 kBProgress (2): 0.2/1.9 MB | 45/464 kBProgress (2): 0.2/1.9 MB | 46/464 kBProgress (2): 0.2/1.9 MB | 48/464 kBProgress (2): 0.2/1.9 MB | 49/464 kBProgress (2): 0.2/1.9 MB | 50/464 kBProgress (2): 0.2/1.9 MB | 52/464 kBProgress (2): 0.2/1.9 MB | 53/464 kBProgress (2): 0.2/1.9 MB | 55/464 kBProgress (2): 0.2/1.9 MB | 59/464 kBProgress (2): 0.2/1.9 MB | 63/464 kBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 63/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 67/464 kB | 0/1.1 MBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 0.9/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 0.9/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 2.3/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 3.6/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 5.0/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 6.4/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 7.7/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 9.1/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 10/58 kB Progress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 12/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 13/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 15/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 16/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 17/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 19/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 20/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 21/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 23/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 24/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 26/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 27/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 28/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 29/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 31/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 32/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 33/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 35/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 36/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 37/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 39/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 40/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 41/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 43/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 44/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 46/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 47/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 48/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 50/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 51/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 52/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 54/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 55/58 kBProgress (4): 0.2/1.9 MB | 67/464 kB | 0/1.1 MB | 58 kB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar (58 kB at 235 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.jar
+Progress (3): 0.2/1.9 MB | 71/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 76/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 80/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 84/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 88/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 93/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 97/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 101/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 105/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 110/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 114/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 118/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 122/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 126/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 131/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 135/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 135/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 139/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.2/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 143/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 148/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 148/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 151/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 151/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 156/464 kB | 0/1.1 MBProgress (3): 0.3/1.9 MB | 160/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 160/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 164/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 168/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 168/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 173/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 177/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 181/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 185/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 189/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 194/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 198/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 200/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 202/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 206/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 211/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 215/464 kB | 0/1.1 MBProgress (3): 0.4/1.9 MB | 219/464 kB | 0/1.1 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 219/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 223/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 223/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 240/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 240/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 240/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 240/464 kB | 0/1.1 MB | 0/1.4 MBProgress (4): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 3.8/75 kBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.4/1.9 MB | 256/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.4/1.9 MB | 272/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 272/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 289/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 305/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 322/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 322/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 331/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 331/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 347/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 347/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 364/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 364/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 380/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 380/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.5/1.9 MB | 396/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 396/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 413/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 413/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 429/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 429/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.6/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 8.0/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 12/75 kB Progress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 12/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 16/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.7/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 446/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 462/464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (5): 0.8/1.9 MB | 464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kB    Progress (5): 0.8/1.9 MB | 464 kB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kB                                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.jar (464 kB at 704 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.jar
+Progress (4): 0.8/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 20/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 25/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 25/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 25/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 29/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 29/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 33/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 33/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 33/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 37/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 37/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.1/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 42/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 46/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 50/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 54/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 58/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 63/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 67/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 71/75 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 75 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.jar (75 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar
+Progress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 7.7/48 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 16/48 kB Progress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 20/48 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 37/48 kBProgress (4): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MB | 48 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.jar (48 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
+Progress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.2/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.3/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 0.9/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.0/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.0/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.0/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.0/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.0/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.0/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (3): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MBProgress (4): 1.1/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 3.8/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 3.8/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 8.0/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 12/147 kB Progress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 16/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 20/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 25/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 7.7/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 16/122 kB Progress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 25/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 25/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 41/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 41/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 57/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 66/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 82/122 kBProgress (5): 1.2/1.9 MB | 0.4/1.1 MB | 0/1.4 MB | 29/147 kB | 82/122 kBProgress (5): 1.2/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 82/122 kBProgress (5): 1.2/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 82/122 kBProgress (5): 1.2/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 98/122 kBProgress (5): 1.2/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 98/122 kBProgress (5): 1.2/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 98/122 kBProgress (5): 1.2/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 115/122 kBProgress (5): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 115/122 kBProgress (5): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 122 kB    Progress (5): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 122 kBProgress (5): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kB | 122 kB                                                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar (122 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar
+Progress (4): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 29/147 kBProgress (4): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 33/147 kBProgress (4): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.5/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.3/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.4/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.4/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.4/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.4/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.4/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.4/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 37/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 42/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 46/147 kBProgress (4): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 46/147 kBProgress (5): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 46/147 kB | 4.0/72 kBProgress (5): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 50/147 kB | 4.0/72 kBProgress (5): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 50/147 kB | 4.0/72 kBProgress (5): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 50/147 kB | 20/72 kB Progress (5): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 20/72 kBProgress (5): 1.5/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 37/72 kBProgress (5): 1.6/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 37/72 kBProgress (5): 1.6/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 53/72 kBProgress (5): 1.6/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 53/72 kBProgress (5): 1.6/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 53/72 kBProgress (5): 1.6/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 53/72 kBProgress (5): 1.6/1.9 MB | 0.6/1.1 MB | 0/1.4 MB | 54/147 kB | 70/72 kBProgress (5): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kB | 70/72 kBProgress (5): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kB | 72 kB                                                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar (72 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+Progress (4): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.7/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 54/147 kBProgress (4): 1.6/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 58/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 58/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 58/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 58/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 58/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 58/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 63/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 67/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 67/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 71/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 75/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 80/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 84/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 84/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 84/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 84/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 84/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 84/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.7/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0.1/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0.1/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0.1/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0.1/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.8/1.1 MB | 0.1/1.4 MB | 88/147 kBProgress (4): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 7.7/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 11/52 kB Progress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 11/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 11/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 11/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 88/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 28/52 kBProgress (5): 1.8/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 44/52 kBProgress (5): 1.9/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 44/52 kBProgress (5): 1.9/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 52 kB   Progress (5): 1.9/1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 52 kBProgress (5): 1.9 MB | 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kB | 52 kB                                                                       Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar (1.9 MB at 942 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar (52 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
+Progress (3): 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kBProgress (3): 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kBProgress (3): 0.9/1.1 MB | 0.1/1.4 MB | 104/147 kBProgress (3): 0.9/1.1 MB | 0.1/1.4 MB | 121/147 kBProgress (3): 0.9/1.1 MB | 0.1/1.4 MB | 137/147 kBProgress (3): 0.9/1.1 MB | 0.1/1.4 MB | 147 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar (147 kB at 72 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+Progress (3): 0.9/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 0.9/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (3): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kBProgress (4): 1.0/1.1 MB | 0.1/1.4 MB | 4.0/43 kB | 4.1/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 4.0/43 kB | 4.1/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 20/43 kB | 4.1/146 kB Progress (4): 1.1/1.1 MB | 0.1/1.4 MB | 20/43 kB | 20/146 kB Progress (4): 1.1/1.1 MB | 0.1/1.4 MB | 20/43 kB | 29/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 20/43 kB | 29/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kBProgress (4): 1.1/1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kBProgress (4): 1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kB    Progress (4): 1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kBProgress (5): 1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kB | 7.7/136 kBProgress (5): 1.1 MB | 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB                                                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar (1.1 MB at 490 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar
+Progress (4): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 7.7/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 11/484 kB Progress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 28/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 44/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 61/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 77/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 93/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 110/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 29/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 45/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 61/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 78/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 94/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 111/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 127/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 143/146 kB | 16/136 kB | 126/484 kBProgress (5): 0.1/1.4 MB | 37/43 kB | 146 kB | 16/136 kB | 126/484 kB                                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar (146 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar
+Progress (4): 0.1/1.4 MB | 37/43 kB | 16/136 kB | 142/484 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 32/136 kB | 142/484 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 32/136 kB | 159/484 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 32/136 kB | 175/484 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kBProgress (4): 0.1/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kBProgress (4): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kBProgress (4): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kBProgress (4): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kBProgress (5): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kB | 7.7/233 kBProgress (5): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kB | 11/233 kB Progress (5): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kB | 28/233 kBProgress (5): 0.2/1.4 MB | 37/43 kB | 49/136 kB | 175/484 kB | 28/233 kBProgress (5): 0.2/1.4 MB | 43 kB | 49/136 kB | 175/484 kB | 28/233 kB                                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar (43 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+Progress (4): 0.2/1.4 MB | 49/136 kB | 192/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 49/136 kB | 208/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 49/136 kB | 224/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 49/136 kB | 241/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 49/136 kB | 257/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 49/136 kB | 274/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 274/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 290/484 kB | 28/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 290/484 kB | 44/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 306/484 kB | 44/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 306/484 kB | 44/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 323/484 kB | 44/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 323/484 kB | 44/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 339/484 kB | 44/233 kBProgress (4): 0.2/1.4 MB | 65/136 kB | 339/484 kB | 61/233 kBProgress (5): 0.2/1.4 MB | 65/136 kB | 339/484 kB | 61/233 kB | 7.7/752 kBProgress (5): 0.2/1.4 MB | 65/136 kB | 339/484 kB | 61/233 kB | 16/752 kB Progress (5): 0.2/1.4 MB | 81/136 kB | 339/484 kB | 61/233 kB | 16/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 339/484 kB | 61/233 kB | 32/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 355/484 kB | 61/233 kB | 32/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 355/484 kB | 61/233 kB | 49/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 355/484 kB | 61/233 kB | 53/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 355/484 kB | 61/233 kB | 53/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 355/484 kB | 61/233 kB | 53/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 372/484 kB | 61/233 kB | 53/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 372/484 kB | 61/233 kB | 70/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 372/484 kB | 77/233 kB | 70/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 372/484 kB | 77/233 kB | 86/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 388/484 kB | 77/233 kB | 86/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 388/484 kB | 93/233 kB | 86/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 405/484 kB | 93/233 kB | 86/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 405/484 kB | 93/233 kB | 102/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 421/484 kB | 93/233 kB | 102/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 421/484 kB | 93/233 kB | 119/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 421/484 kB | 93/233 kB | 123/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 421/484 kB | 93/233 kB | 139/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 421/484 kB | 93/233 kB | 156/752 kBProgress (5): 0.2/1.4 MB | 81/136 kB | 421/484 kB | 93/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 98/136 kB | 421/484 kB | 93/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 98/136 kB | 421/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 98/136 kB | 437/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 98/136 kB | 454/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 98/136 kB | 454/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 98/136 kB | 454/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 454/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 454/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 110/233 kB | 172/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 110/233 kB | 188/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 110/233 kB | 205/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 110/233 kB | 221/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 110/233 kB | 238/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 126/233 kB | 238/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 126/233 kB | 238/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 126/233 kB | 238/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 126/233 kB | 254/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 142/233 kB | 254/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 142/233 kB | 270/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 159/233 kB | 270/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 159/233 kB | 287/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 159/233 kB | 303/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 175/233 kB | 303/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 175/233 kB | 303/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 175/233 kB | 303/752 kBProgress (5): 0.2/1.4 MB | 114/136 kB | 470/484 kB | 175/233 kB | 319/752 kBProgress (5): 0.2/1.4 MB | 131/136 kB | 470/484 kB | 175/233 kB | 319/752 kBProgress (5): 0.2/1.4 MB | 136 kB | 470/484 kB | 175/233 kB | 319/752 kB                                                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 44 kB/s)
+Progress (4): 0.2/1.4 MB | 470/484 kB | 192/233 kB | 319/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 192/233 kB | 336/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 192/233 kB | 352/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 208/233 kB | 352/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 208/233 kB | 369/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 208/233 kB | 385/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 208/233 kB | 401/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 224/233 kB | 401/752 kBProgress (4): 0.2/1.4 MB | 470/484 kB | 233 kB | 401/752 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar (233 kB at 74 kB/s)
+Progress (3): 0.2/1.4 MB | 470/484 kB | 418/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 434/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 451/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 451/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 451/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 451/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 467/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 483/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 500/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 516/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 532/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 549/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 565/752 kBProgress (3): 0.2/1.4 MB | 470/484 kB | 582/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 582/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 582/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 598/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 614/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 631/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 647/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 664/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 680/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 696/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 713/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 729/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 745/752 kBProgress (3): 0.3/1.4 MB | 470/484 kB | 752 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar (752 kB at 222 kB/s)
+Progress (2): 0.3/1.4 MB | 470/484 kBProgress (2): 0.3/1.4 MB | 470/484 kBProgress (2): 0.3/1.4 MB | 470/484 kBProgress (2): 0.3/1.4 MB | 470/484 kBProgress (2): 0.3/1.4 MB | 470/484 kBProgress (2): 0.4/1.4 MB | 470/484 kBProgress (2): 0.4/1.4 MB | 484 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar (484 kB at 130 kB/s)
+Progress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.3/1.4 MBProgress (1): 1.3/1.4 MBProgress (1): 1.3/1.4 MBProgress (1): 1.3/1.4 MBProgress (1): 1.3/1.4 MBProgress (1): 1.3/1.4 MBProgress (1): 1.4/1.4 MBProgress (1): 1.4 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar (1.4 MB at 280 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2025-12-11T15:00:49.905+01:00  INFO 20304 --- [discovery-service] [           main] c.b.d.DiscoveryServiceApplication        : Starting DiscoveryServiceApplication using Java 21.0.9 with PID 20304 (/home/student/Bureau/Cursus/java/Buy-01/buy-01/microservices/discovery-service/target/classes started by student in /home/student/Bureau/Cursus/java/Buy-01/buy-01/microservices/discovery-service)
+2025-12-11T15:00:49.909+01:00  INFO 20304 --- [discovery-service] [           main] c.b.d.DiscoveryServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-12-11T15:00:51.291+01:00  INFO 20304 --- [discovery-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=efe47e51-8cb1-30ea-88cb-ad9999c1a137
+2025-12-11T15:00:51.706+01:00  INFO 20304 --- [discovery-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2025-12-11T15:00:51.724+01:00  INFO 20304 --- [discovery-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11T15:00:51.725+01:00  INFO 20304 --- [discovery-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-12-11T15:00:51.790+01:00  INFO 20304 --- [discovery-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-11T15:00:51.791+01:00  INFO 20304 --- [discovery-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1813 ms
+2025-12-11T15:00:52.787+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-12-11T15:00:52.789+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-12-11T15:00:52.946+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-12-11T15:00:52.946+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-12-11T15:00:53.662+01:00  WARN 20304 --- [discovery-service] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-11T15:00:53.679+01:00  INFO 20304 --- [discovery-service] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-12-11T15:00:53.696+01:00  INFO 20304 --- [discovery-service] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-12-11T15:00:53.696+01:00  INFO 20304 --- [discovery-service] [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-12-11T15:00:53.699+01:00  INFO 20304 --- [discovery-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1765461653697 with initial instances count: 0
+2025-12-11T15:00:53.733+01:00  INFO 20304 --- [discovery-service] [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-12-11T15:00:53.735+01:00  INFO 20304 --- [discovery-service] [           main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2025-12-11T15:00:53.848+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-12-11T15:00:53.848+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-12-11T15:00:53.848+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-12-11T15:00:53.848+01:00  INFO 20304 --- [discovery-service] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-12-11T15:00:53.879+01:00  INFO 20304 --- [discovery-service] [           main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2025-12-11T15:00:53.887+01:00  INFO 20304 --- [discovery-service] [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-12-11T15:00:53.887+01:00  INFO 20304 --- [discovery-service] [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-12-11T15:00:53.897+01:00  INFO 20304 --- [discovery-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-11T15:00:53.937+01:00  INFO 20304 --- [discovery-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERY-SERVICE with eureka with status UP
+2025-12-11T15:00:53.947+01:00  INFO 20304 --- [discovery-service] [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-12-11T15:00:53.948+01:00  INFO 20304 --- [discovery-service] [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-12-11T15:00:53.948+01:00  INFO 20304 --- [discovery-service] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-12-11T15:00:53.948+01:00  INFO 20304 --- [discovery-service] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-12-11T15:00:53.948+01:00  INFO 20304 --- [discovery-service] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-12-11T15:00:53.950+01:00  INFO 20304 --- [discovery-service] [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-12-11T15:00:53.951+01:00  INFO 20304 --- [discovery-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2025-12-11T15:00:53.952+01:00  INFO 20304 --- [discovery-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2025-12-11T15:00:53.965+01:00  INFO 20304 --- [discovery-service] [           main] c.b.d.DiscoveryServiceApplication        : Started DiscoveryServiceApplication in 4.645 seconds (process running for 5.43)
+2025-12-11T15:01:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:02:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:03:45.740+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11T15:03:45.740+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11T15:03:45.743+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-12-11T15:03:46.110+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status UP (replication=false)
+2025-12-11T15:03:46.828+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status UP (replication=true)
+2025-12-11T15:03:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:04:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:05:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:06:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:07:51.517+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status DOWN (replication=false)
+2025-12-11T15:07:52.034+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status DOWN (replication=true)
+2025-12-11T15:07:53.950+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:07:54.554+01:00  INFO 20304 --- [discovery-service] [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/studentHP.localdomain:user-service:8081 (replication=false)
+2025-12-11T15:07:55.065+01:00  WARN 20304 --- [discovery-service] [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/studentHP.localdomain:user-service:8081
+2025-12-11T15:07:55.065+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): USER-SERVICE - studentHP.localdomain:user-service:8081
+2025-12-11T15:07:55.072+01:00  WARN 20304 --- [discovery-service] [et_localhost-15] c.n.eureka.cluster.ReplicationTask       : The replication of task USER-SERVICE/studentHP.localdomain:user-service:8081:Cancel@localhost failed with response code 404
+2025-12-11T15:07:55.073+01:00  WARN 20304 --- [discovery-service] [et_localhost-15] c.netflix.eureka.cluster.PeerEurekaNode  : USER-SERVICE/studentHP.localdomain:user-service:8081:Cancel@localhost: missing entry.
+2025-12-11T15:08:05.944+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status UP (replication=false)
+2025-12-11T15:08:06.459+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status UP (replication=true)
+2025-12-11T15:08:53.949+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:09:53.950+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:10:53.950+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:11:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:12:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:13:53.952+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:14:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:14:56.609+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status DOWN (replication=false)
+2025-12-11T15:14:57.125+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status DOWN (replication=true)
+2025-12-11T15:14:59.667+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/studentHP.localdomain:user-service:8081 (replication=false)
+2025-12-11T15:15:00.185+01:00  WARN 20304 --- [discovery-service] [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: USER-SERVICE/studentHP.localdomain:user-service:8081
+2025-12-11T15:15:00.187+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): USER-SERVICE - studentHP.localdomain:user-service:8081
+2025-12-11T15:15:00.192+01:00  WARN 20304 --- [discovery-service] [get_localhost-4] c.n.eureka.cluster.ReplicationTask       : The replication of task USER-SERVICE/studentHP.localdomain:user-service:8081:Cancel@localhost failed with response code 404
+2025-12-11T15:15:00.192+01:00  WARN 20304 --- [discovery-service] [get_localhost-4] c.netflix.eureka.cluster.PeerEurekaNode  : USER-SERVICE/studentHP.localdomain:user-service:8081:Cancel@localhost: missing entry.
+2025-12-11T15:15:08.293+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status UP (replication=false)
+2025-12-11T15:15:08.806+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/studentHP.localdomain:user-service:8081 with status UP (replication=true)
+2025-12-11T15:15:53.887+01:00  INFO 20304 --- [discovery-service] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2025-12-11T15:15:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:16:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:17:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:18:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:19:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:20:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:21:20.395+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PRODUCT-SERVICE/studentHP.localdomain:product-service:8082 with status UP (replication=false)
+2025-12-11T15:21:20.907+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PRODUCT-SERVICE/studentHP.localdomain:product-service:8082 with status UP (replication=true)
+2025-12-11T15:21:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:22:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:23:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:24:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:25:53.952+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:26:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:27:53.952+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:28:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:29:53.952+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:30:53.887+01:00  INFO 20304 --- [discovery-service] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2025-12-11T15:30:53.951+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:31:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-12-11T15:32:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:33:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:34:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:35:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:36:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:37:53.953+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:38:53.954+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:39:53.954+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:40:53.955+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:41:53.955+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:42:53.956+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:43:53.956+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:44:53.956+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:45:53.888+01:00  INFO 20304 --- [discovery-service] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2025-12-11T15:45:53.956+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:46:53.957+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:47:53.957+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:48:53.958+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:49:53.958+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:50:53.959+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:51:53.959+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:52:53.960+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:53:53.960+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:54:53.960+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:55:53.960+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:56:53.960+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:57:53.960+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:58:53.961+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T15:59:53.961+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:00:53.888+01:00  INFO 20304 --- [discovery-service] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2025-12-11T16:00:53.962+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:01:53.962+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:02:53.963+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:03:53.963+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:04:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:05:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:06:53.965+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:07:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:08:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:09:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:10:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:11:53.965+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:11:59.653+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEDIA-SERVICE/studentHP.localdomain:media-service:8083 with status UP (replication=false)
+2025-12-11T16:12:00.163+01:00  INFO 20304 --- [discovery-service] [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MEDIA-SERVICE/studentHP.localdomain:media-service:8083 with status UP (replication=true)
+2025-12-11T16:12:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:13:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:14:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:15:53.889+01:00  INFO 20304 --- [discovery-service] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2025-12-11T16:15:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:16:53.964+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:17:54.038+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:18:02.009+01:00 ERROR 20304 --- [discovery-service] [get_localhost-2] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:17:58.294+01:00 ERROR 20304 --- [discovery-service] [get_localhost-4] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:18:31.808+01:00 ERROR 20304 --- [discovery-service] [get_localhost-4] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:18:36.186+01:00 ERROR 20304 --- [discovery-service] [get_localhost-3] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:18:53.985+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 20ms
+2025-12-11T16:18:55.244+01:00 ERROR 20304 --- [discovery-service] [et_localhost-19] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:18:58.444+01:00 ERROR 20304 --- [discovery-service] [get_localhost-4] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:19:01.098+01:00 ERROR 20304 --- [discovery-service] [get_localhost-2] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:19:02.123+01:00 ERROR 20304 --- [discovery-service] [get_localhost-3] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:19:13.095+01:00 ERROR 20304 --- [discovery-service] [et_localhost-16] c.n.e.cluster.ReplicationTaskProcessor   : Network level connection to peer localhost; retrying after delay
+
+jakarta.ws.rs.ProcessingException: org.apache.http.conn.ConnectTimeoutException: Connect to localhost:8761 [localhost/127.0.0.1] timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to localhost:8761 [localhost/127.0.0.1] timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+Caused by: java.net.SocketTimeoutException: null
+	at java.base/java.net.SocksSocketImpl.remainingMillis(SocksSocketImpl.java:110) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.3.jar:4.5.3]
+	... 25 common frames omitted
+
+2025-12-11T16:19:53.985+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:20:53.985+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:21:53.999+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:22:53.985+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:23:53.986+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-12-11T16:24:34.437+01:00 ERROR 20304 --- [discovery-service] [et_localhost-12] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:24:54.046+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 18ms
+2025-12-11T16:24:42.807+01:00 ERROR 20304 --- [discovery-service] [et_localhost-13] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:24:47.750+01:00 ERROR 20304 --- [discovery-service] [et_localhost-18] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:25:00.041+01:00 ERROR 20304 --- [discovery-service] [get_localhost-1] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:25:02.039+01:00 ERROR 20304 --- [discovery-service] [et_localhost-15] c.n.e.cluster.ReplicationTaskProcessor   : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+
+jakarta.ws.rs.ProcessingException: java.net.SocketTimeoutException: Read timed out
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:534) ~[jersey-apache-connector-3.1.9.jar:na]
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:300) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:674) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:709) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:391) ~[jersey-common-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:703) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:673) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:439) ~[jersey-client-3.1.9.jar:na]
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:345) ~[jersey-client-3.1.9.jar:na]
+	at com.netflix.eureka.transport.Jersey3ReplicationClient.submitBatchUpdates(Jersey3ReplicationClient.java:116) ~[eureka-core-jersey3-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80) ~[eureka-core-2.0.5.jar:2.0.5]
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:178) ~[eureka-core-2.0.5.jar:2.0.5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.16.jar:4.4.16]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:486) ~[jersey-apache-connector-3.1.9.jar:na]
+	... 16 common frames omitted
+
+2025-12-11T16:25:54.069+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 66ms
+2025-12-11T16:26:54.070+01:00  INFO 20304 --- [discovery-service] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+                                                                                                                                                                                

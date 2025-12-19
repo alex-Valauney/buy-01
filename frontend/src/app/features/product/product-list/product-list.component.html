@@ -1,0 +1,30 @@
+<div class="product-header">
+    <h2>Discover Products</h2>
+    <!-- Filters could go here -->
+</div>
+
+<div class="product-grid">
+    <ng-container *ngIf="products$ | async as products">
+        <div *ngFor="let product of products" class="card product-card">
+            <div class="product-image" *ngIf="product.imageUrls && product.imageUrls.length > 0">
+                <img [src]="product.imageUrls[0]" [alt]="product.name">
+            </div>
+            <div class="product-image placeholder" *ngIf="!product.imageUrls || product.imageUrls.length === 0">
+                <span>No Image</span>
+            </div>
+
+            <div class="product-details">
+                <h3>{{ product.name }}</h3>
+                <p class="description">{{ product.description }}</p>
+                <div class="price-row">
+                    <span class="price">{{ product.price | currency:'EUR' }}</span>
+                    <button class="btn btn-sm btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+
+    <div *ngIf="(products$ | async)?.length === 0" class="no-products">
+        <p>No products found yet.</p>
+    </div>
+</div>
