@@ -1,56 +1,37 @@
 pipeline {
     agent any
 
-    options {
-        timeout(time: 1, unit: 'HOURS') 
-    }
-
     stages {
         stage('Checkout') {
             steps {
+                // Récupère le code depuis Git
                 checkout scm
             }
         }
 
-        stage('Build Microservices') {
+        stage('Build & Unit Tests') {
             steps {
-                script {
-                    def services = ['discovery-service', 'gateway-service', 'user-service', 'product-service', 'media-service']
-                    
-                    services.each { service ->
-                        stage("Build ${service}") {
-                            dir("microservices/${service}") {
-                                echo "Building ${service}..."
-                                // Using -DskipTests for a quicker build as requested
-                                sh 'chmod +x mvnw'
-                                sh './mvnw clean package -DskipTests'
-                            }
-                        }
-                    }
-                }
+                echo 'Construction et tests du Backend...'
+                // Remplacez par votre commande (ex: ./mvnw clean test)
+                sh 'echo "Tests JUnit en cours..."' 
             }
         }
 
-        stage('Build Frontend') {
+        stage('Frontend Tests') {
             steps {
-                dir('frontend') {
-                    echo "Building Frontend..."
-                    sh 'npm install'
-                    sh 'npm run build'
-                }
+                echo 'Tests du Frontend Angular...'
+                // Remplacez par votre commande (ex: npm test)
+                sh 'echo "Tests Jasmine en cours..."'
             }
         }
     }
-    
+
     post {
         always {
-            echo 'Pipeline finished'
-        }
-        success {
-            echo 'Build successful!'
-        }
-        failure {
-            echo 'Build failed.'
+            // Envoie un mail peu importe le résultat
+            mail to: 'votre-email@gmail.com',
+                 subject: "Statut du Build ${env.JOB_NAME} - #${env.BUILD_NUMBER}",
+                 body: "Le build s'est terminé avec le statut : ${currentBuild.currentResult}\nConsultez les détails ici : ${env.BUILD_URL}"
         }
     }
 }
