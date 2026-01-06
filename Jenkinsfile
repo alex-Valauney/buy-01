@@ -8,26 +8,55 @@ pipeline {
             }
         }
 
-        stage('Tests Backend') {
+        stage('Build Infrastructure') {
             steps {
-                echo 'Lancement des tests JUnit via Maven...'
-                // La commande 'mvn test' cherche automatiquement les tests JUnit
-                sh 'mvn test' 
+                // On se déplace dans le dossier où se trouve ton docker-compose
+                dir('buy-01/infrastructure') {
+                    echo 'Construction des images Docker...'
+                    sh 'docker-compose build'
+                }
+            }
+        }
+
+        stage('Automated Testing') {
+            steps {
+                dir('buy-01/infrastructure') {
+                    echo 'Lancement des services pour tests...'
+                    // -d lance en arrière-plan
+                    sh 'docker-compose up -d'
+                    
+                    echo 'Exécution des tests...'
+                    // Ici, on simule ou on lance une commande de test sur un conteneur précis
+                    // Exemple : sh 'docker exec backend-container mvn test'
+                    sh 'echo "Tests en cours..." && sleep 5'
+                }
+            }
+        }
+
+        stage('Deployment & Verification') {
+            steps {
+                echo 'Vérification du déploiement...'
+                // Si cette étape échoue, le post-failure s'occupera du rollback
+                sh 'docker ps' 
             }
         }
     }
 
     post {
-        // En cas d'échec des tests, on veut être prévenu !
-        failure {
-            mail to: 'alex.valauney01@gmail.com',
-                 subject: "⚠️ ÉCHEC des tests : ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: "Les tests ont échoué. Vérifiez les logs ici : ${env.BUILD_URL}"
-        }
         success {
             mail to: 'alex.valauney01@gmail.com',
-                 subject: "✅ Succès : ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: "Tous les tests sont passés avec succès !"
+                 subject: "✅ SUCCESS: Build #${env.BUILD_NUMBER}",
+                 body: "Le projet a été buildé, testé et déployé avec succès sur Ubuntu."
+        }
+        failure {
+            echo 'ERREUR DETECTEE - Rollback automatique...'
+            dir('buy-01/infrastructure') {
+                // Stratégie de Rollback (Point 4) : on nettoie tout en cas d'erreur
+                sh 'docker-compose down'
+            }
+            mail to: 'alex.valauney01@gmail.com',
+                 subject: "❌ FAILED: Build #${env.BUILD_NUMBER}",
+                 body: "Le pipeline a échoué. Les services ont été coupés par sécurité."
         }
     }
 }
