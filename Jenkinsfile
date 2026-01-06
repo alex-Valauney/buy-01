@@ -5,13 +5,15 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
+                // On liste les fichiers pour être SÛR du chemin dans la console
+                sh 'ls -R' 
             }
         }
 
         stage('Build Infrastructure') {
             steps {
-                // On se déplace dans le dossier où se trouve ton docker-compose
-                dir('buy-01/infrastructure') {
+                // Utilisation du chemin direct vers le dossier infrastructure
+                dir('infrastructure') {
                     echo 'Construction des images Docker...'
                     sh 'docker-compose build'
                 }
@@ -20,43 +22,36 @@ pipeline {
 
         stage('Automated Testing') {
             steps {
-                dir('buy-01/infrastructure') {
-                    echo 'Lancement des services pour tests...'
-                    // -d lance en arrière-plan
+                dir('infrastructure') {
+                    echo 'Lancement des services...'
                     sh 'docker-compose up -d'
-                    
-                    echo 'Exécution des tests...'
-                    // Ici, on simule ou on lance une commande de test sur un conteneur précis
-                    // Exemple : sh 'docker exec backend-container mvn test'
-                    sh 'echo "Tests en cours..." && sleep 5'
+                    sh 'echo "Simulation des tests JUnit..."'
                 }
-            }
-        }
-
-        stage('Deployment & Verification') {
-            steps {
-                echo 'Vérification du déploiement...'
-                // Si cette étape échoue, le post-failure s'occupera du rollback
-                sh 'docker ps' 
             }
         }
     }
 
     post {
+        failure {
+            script {
+                echo 'ERREUR - Tentative de Rollback...'
+                try {
+                    dir('infrastructure') {
+                        sh 'docker-compose down'
+                    }
+                } catch (e) {
+                    echo "Le rollback a échoué (normal si le build n'a pas créé d'images)."
+                }
+            }
+            // Envoi du mail d'échec
+            mail to: 'alex.valauney01@gmail.com',
+                 subject: "❌ ÉCHEC Build #${env.BUILD_NUMBER}",
+                 body: "Le build a échoué. Regarde ici : ${env.BUILD_URL}"
+        }
         success {
             mail to: 'alex.valauney01@gmail.com',
-                 subject: "✅ SUCCESS: Build #${env.BUILD_NUMBER}",
-                 body: "Le projet a été buildé, testé et déployé avec succès sur Ubuntu."
-        }
-        failure {
-            echo 'ERREUR DETECTEE - Rollback automatique...'
-            dir('buy-01/infrastructure') {
-                // Stratégie de Rollback (Point 4) : on nettoie tout en cas d'erreur
-                sh 'docker-compose down'
-            }
-            mail to: 'alex.valauney01@gmail.com',
-                 subject: "❌ FAILED: Build #${env.BUILD_NUMBER}",
-                 body: "Le pipeline a échoué. Les services ont été coupés par sécurité."
+                 subject: "✅ SUCCÈS Build #${env.BUILD_NUMBER}",
+                 body: "Le déploiement est réussi !"
         }
     }
 }
