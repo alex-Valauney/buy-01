@@ -2,34 +2,32 @@ pipeline {
     agent any
 
     stages {
-        stage('Initialisation') {
+        stage('Checkout') {
             steps {
-                echo 'Début du pipeline pour le projet e-commerce...'
+                checkout scm
             }
         }
-        stage('Simulation Build') {
+
+        stage('Tests Backend') {
             steps {
-                echo 'En train de compiler le code...'
-                // On simule une action de build
-                sh 'echo "Compilation terminée"'
+                echo 'Lancement des tests JUnit via Maven...'
+                // La commande 'mvn test' cherche automatiquement les tests JUnit
+                sh 'mvn test' 
             }
         }
     }
 
     post {
-        always {
-            echo 'Envoi de la notification mail...'
+        // En cas d'échec des tests, on veut être prévenu !
+        failure {
             mail to: 'alex.valauney01@gmail.com',
-                 subject: "Statut Jenkins : ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: """Bonjour,
-
-Le build numéro ${env.BUILD_NUMBER} de votre projet ${env.JOB_NAME} est terminé.
-
-Statut : ${currentBuild.currentResult}
-Lien vers le build : ${env.BUILD_URL}
-
---
-Votre serveur Jenkins (Ubuntu 24.04)"""
+                 subject: "⚠️ ÉCHEC des tests : ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                 body: "Les tests ont échoué. Vérifiez les logs ici : ${env.BUILD_URL}"
+        }
+        success {
+            mail to: 'alex.valauney01@gmail.com',
+                 subject: "✅ Succès : ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                 body: "Tous les tests sont passés avec succès !"
         }
     }
 }
