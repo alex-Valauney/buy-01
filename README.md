@@ -58,5 +58,3 @@ docker exec -it buy01-mongodb mongosh -u admin -p password --authenticationDatab
   db.users.find() // Pour les utilisateurs
   db.products.find() // Pour les produits
   ```
-
-  :)
