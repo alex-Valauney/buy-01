@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage('Build Infrastructure') {
+        stage('Build Infrastructur') {
             steps {
                 // Utilisation du chemin direct vers le dossier infrastructure
                 dir('infrastructure') {
@@ -22,7 +22,7 @@ pipeline {
 
         stage('Automated Testing') {
             steps {
-                dir('infrastructure') {
+                dir('infrastructur') {
                     echo 'Lancement des services...'
                     sh 'docker-compose up -d'
                     sh 'echo "Simulation des tests JUnit..."'
@@ -36,7 +36,7 @@ pipeline {
             script {
                 echo 'ERREUR - Tentative de Rollback...'
                 try {
-                    dir('infrastructure') {
+                    dir('infrastructur') {
                         sh 'docker-compose down'
                     }
                 } catch (e) {
