@@ -11,6 +11,10 @@ jobs:
     name: Build and analyze
     runs-on: ubuntu-latest
     
+    strategy:
+      matrix:
+        service: [discovery-service, gateway-service, user-service, product-service, media-service]
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,8 +36,10 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-      - name: Build and analyze
+      - name: Build and analyze ${{ matrix.service }}
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=test-pour-safe-zone -Dsonar.projectName='test pour safe zone'
+        run: |
+          cd microservices/${{ matrix.service }}
+          ../mvnw -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=test-pour-safe-zone-${{ matrix.service }} -Dsonar.projectName='test pour safe zone - ${{ matrix.service }}'
