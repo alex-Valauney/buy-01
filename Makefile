@@ -30,6 +30,7 @@ help: ## Affiche l'aide
 	@echo "  make stop     : Arrête tout le projet"
 	@echo "  make clean    : Supprime les fichiers temporaires et les logs"
 	@echo "  make mongo    : Connecte au shell MongoDB (admin/password)"
+	@echo "  make sonar    : Lance l'analyse SonarQube et les tests"
 	@echo "  make help     : Affiche ce message"
 	@echo ""
 
@@ -40,6 +41,14 @@ build: ## Compile tous les microservices
 		(cd $(SERVICES_DIR)/$$service && $(MVNW) clean install -DskipTests -q) || exit 1; \
 	done
 	@echo "✅  Compilation terminée avec succès !"
+
+sonar: ## Lance l'analyse SonarQube et les tests
+	@echo "🔍  [1/1] Analyse SonarQube & Coverage..."
+	@for service in $(SERVICES_LIST); do \
+		echo "   👉 $$service..."; \
+		(cd $(SERVICES_DIR)/$$service && $(MVNW) verify sonar:sonar) || exit 1; \
+	done
+	@echo "✅  Analyse terminée ! Voir http://localhost:9000"
 
 start: ## Lance le projet (Infra -> Discovery -> Services -> Frontend)
 	@echo "=================================================="

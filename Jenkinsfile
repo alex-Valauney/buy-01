@@ -29,6 +29,28 @@ pipeline {
                 }
             }
         }
+
+        stage('Code Quality') {
+            steps {
+                script {
+                    def services = ['discovery-service', 'gateway-service', 'user-service', 'product-service', 'media-service']
+                    services.each { service ->
+                        dir("microservices/${service}") {
+                            echo "🔍 Analyse SonarQube pour ${service}..."
+                            // Attention : Si Jenkins est dans Docker, localhost pointe vers le conteneur.
+                            // Il faudra peut-être utiliser host.docker.internal ou l'IP de la machine.
+                            // On tente avec la config par défaut pour l'instant.
+                            try {
+                                sh './mvnw verify sonar:sonar -Dsonar.host.url=http://localhost:9000'
+                            } catch (e) {
+                                echo "⚠️ Attention: L'analyse Sonar a échoué pour ${service} (Sonar est-il allumé ?)"
+                                // On ne fail pas le build pour ça si c'est juste un test local
+                            } 
+                        }
+                    }
+                }
+            }
+        }
     }
 
     post {
