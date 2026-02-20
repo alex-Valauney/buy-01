@@ -42,4 +42,4 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           cd microservices/${{ matrix.service }}
-          ../mvnw -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=test-pour-safe-zone-${{ matrix.service }} -Dsonar.projectName='test pour safe zone - ${{ matrix.service }}'
+          ./mvnw -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=test-pour-safe-zone-${{ matrix.service }} -Dsonar.projectName='test pour safe zone - ${{ matrix.service }}'
