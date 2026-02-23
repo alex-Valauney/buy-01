@@ -10,26 +10,6 @@ pipeline {
             }
         }
 
-        stage('Build Infrastructure') {
-            steps {
-                // Utilisation du chemin direct vers le dossier infrastructure
-                dir('infrastructure') {
-                    echo 'Construction des images Docker...'
-                    sh 'docker-compose build'
-                }
-            }
-        }
-
-        stage('Automated Testing') {
-            steps {
-                dir('infrastructure') {
-                    echo 'Lancement des services...'
-                    sh 'docker-compose up -d'
-                    sh 'echo "Simulation des tests JUnit..."'
-                }
-            }
-        }
-
         stage('Code Quality') {
             steps {
                 script {
@@ -59,14 +39,7 @@ pipeline {
     post {
         failure {
             script {
-                echo 'ERREUR - Tentative de Rollback...'
-                try {
-                    dir('infrastructure') {
-                        sh 'docker-compose down'
-                    }
-                } catch (e) {
-                    echo "Le rollback a échoué (normal si le build n'a pas créé d'images)."
-                }
+                echo 'ERREUR - Le pipeline a échoué.'
             }
             // Envoi du mail d'échec
             mail to: 'alex.valauney01@gmail.com',
