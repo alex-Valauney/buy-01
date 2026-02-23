@@ -41,11 +41,14 @@ pipeline {
                             // Il faudra peut-être utiliser host.docker.internal ou l'IP de la machine.
                             // On tente avec la config par défaut pour l'instant.
                             try {
-                                sh './mvnw verify sonar:sonar -Dsonar.host.url=http://localhost:9000'
+                                // On passe le token SonarQube et l'URL pointant vers la machine hôte (172.17.0.1 sur Linux)
+                                withCredentials([string(credentialsId: 'sonar-token', variable: 'SONAR_TOKEN')]) {
+                                    sh './mvnw verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.host.url=http://172.17.0.1:9000 -Dsonar.login=$SONAR_TOKEN -Dsonar.projectKey=test-pour-safe-zone-${service} -Dsonar.projectName="test pour safe zone - ${service}"'
+                                }
                             } catch (e) {
-                                echo "⚠️ Attention: L'analyse Sonar a échoué pour ${service} (Sonar est-il allumé ?)"
+                                echo "⚠️ Attention: L'analyse Sonar a échoué pour ${service} (Sonar est-il allumé sur le port 9000 ? IP Docker : 172.17.0.1)"
                                 // On ne fail pas le build pour ça si c'est juste un test local
-                            } 
+                            }
                         }
                     }
                 }
